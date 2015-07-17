@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:"Microsoft Yahei";}
+.top{height:30px; width:100%;background:#e6e6e6}
+.docbody{width:990px;margin:0 auto}
+
+#topNav{display: block;height:35px;line-height: 35px;font-size: 12px;color: #5d5d5d;margin: 0 auto;width: 990px;position: relative;}
+.leftNav{ float:left;width:200px;line-height: 30px;}
+.rightNav{ float:right;width:250px;line-height: 30px; text-align:right}
+.login,.searchButton{width:70px;height:23px; background:url(../../images/guanyue/login.gif) repeat-x; text-align:center; line-height:25px; margin:2px 3px; display:inline-block; cursor:pointer; border:1px solid #a4a4a4}
+.searchButton{margin:0 10px 0 0}
+.txt_d{ text-decoration:underline}
+.head{background:#f4f5f7}
+.contain{background:#f4f5f7}
+.logo{background:url(../../images/guanyue/logo.png) no-repeat;width:497px;height:50px; display:inline-block; text-indent:-9999px; float:left}
+.share{width:59px; height:18px; margin-top:10px; float:right;background:#fff }
+.share a{background:url(../../images/guanyue/weibo.png) no-repeat;width:18px;height:19px; display:inline-block;margin-left:5px}
+.share .sina{ background-position:0 0}
+.share .weixin{ background-position:-30px 0;}
+.menu{width:982px; margin:20px auto 0}
+.menu ul{margin-left:-9px;}
+.menu li{ float:left; display:inline; margin:0 10px;}
+.menu li a{font-size:14px; width:79px; display:inline-block; text-align:center;height:30px; line-height:30px;}
+.menu li a:hover,.menu li a.active{ border-bottom:8px solid #ab0c83}
+.banner{width:100%;}
+.main{background:#fff; padding:20px;}
+.main .leftCon,.main .rightCon{width:535px; float:left}
+.main .rightCon{width:331px;float:right}
+.slide{ margin-top:5px; margin-left:-8px}
+.slide li{ float:left;margin-left:8px; cursor:pointer}
+.f_16{font-size:16px;}
+.title{ width:100%; position:relative; height:30px; line-height:30px;}
+.more,.time{ position:absolute; right:0px;top:0px;color:#666}
+.w_180{ width:181px; float:left}
+.w_340{ float:right; width:340px;}
+.news{margin-top:18px;}
+.news li{ line-height:24px;}
+.news li a{ width:277px; display:inline-block;}
+.index_focus{position:relative;width:100%;margin:0 auto;overflow:hidden;}
+.index_focus .bd li{display:none;position:absolute;left:0;top:0;}
+.index_focus_post{z-index:10;}
+.index_focus .pic{max-height:395px;display:block; width:100%;}
+.index_focus .pic:hover{text-decoration:none;}
+.index_focus .slide_nav{position:absolute;left:40%;bottom:2%;}
+.index_focus .slide_nav a{cursor:pointer;float:lef];font-size:28px;font-family:arial;color:#fff;padding:5px 10px;}
+.index_focus .slide_nav li:hover,.index_focus .slide_nav .on{text-decoration:none;color:#9c0;filter:alpha(opacity=80);opacity:0.8;}
+.index_focus_pre,.index_focus_next{display:none;position:absolute;top:50%;margin-top:-36px;width:72px;height:72px;text-indent:100%;white-space:nowrap;overflow:hidden;z-index:10;background:url(../../images/guanyue/ico_sliding.png) no-repeat;}
+.index_focus_pre{left:30px;background-position:0 0;}
+.index_focus_pre:hover{background-position:0 -144px;}
+.index_focus_next{right:30px;background-position:0 -72px;}
+.index_focus_next:hover{background-position:0 -216px;}
+
+.h_40{height:45px;margin-top:10px; line-height:24px;}
+.first{  margin-top:5px; display:inline-block; position:relative; width:100%}
+.first b,.tit{font-weight:bold;}
+
+.search{ text-align:center; padding:0px;height:27px; overflow:hidden; vertical-align:middle}
+.search label{font-size:14px;}
+.button{border:1px solid #ccc}
+.txt{border:1px solid #a9a9a9;width:165px;height:23px;margin:0 10px 4px}
+.sel{ margin:0 10px 4px 10px;width:65px;height:26px;border:1px solid #a9a9a9;}
+.bg_f4f5f7{background:#f4f5f7;padding:19px;}
+.listImg{margin-left:-10px}
+.listImg li{ float:left; margin-left:10px; display:inline}
+.activityCon li,.activityCon li a{font-size:14px;}
+.activityCon li a{ width:325px;}
+.sidebarleft{ float:left;width:326px; font-size:14px; line-height:26px; display:inline}
+.sidebarcenter{float:left; display:inline;width:260px;margin-left:29px; font-size:14px;}
+.c_cen{ position:relative;height:125px;top:10px}
+.member{background:#3c98ec;border:1px solid #2b8bdc; text-align:center;width:100px;height:25px; line-height:25px; color:#fff; display:inline-block;margin-top:25px;}
+.xiangxi{ position:absolute;bottom:0;right:0;}
+.pin{ width:407px; float:left; margin-right:60px; display:inline}
+.pro{margin-top:20px}
+.pro dt{ float:left;width:225px;}
+.pro dd{ float:right;width:166px;}
+.info,.m_t{ margin-top:20px; line-height:24px;}
+.tit{ text-align:center;width:100%}
+.hot_book,.clickVideo{ float:left;width:428px; }
+.hot_book .tit,.clickVideo .tit{ text-align:left;font-size:14px; line-height:30px;}
+.hot_book .line,.clickVideo .line{ background:#f4f4f4;padding:20px 0 0;margin-top:5px;height:200px; overflow:hidden  } 
+.hot_book .line img{ margin-bottom:15px}
+.hot_book .line li{ float:left; margin-left:16px; display:inline; text-align:center; width:86px; }
+.clickVideo{width:250px;margin-left:11px;}
+
+.clickVideo .line li{ float:none;padding:0 15px;height:37px; line-height:37px}
+.clickVideo .line li em{width:16px;height:16px; line-height:16px; text-align:center;background:#bebebe; display:inline-block; color:#fff;margin-right:10px}
+.clickVideo .line li .lines{background:#b31884;}
+
+.blk_18 {
+ overflow:hidden;
+ zoom:1;
+ font-size:9pt;
+ padding:40px 0 20px;
+ background:#f4f5f7;
+ width:955px;
+ margin-top:8px;
+ position:relative;
+}
+.blk_18 .scroll{ font-weight:bold; font-size:14px; margin-left:0px; display:inline-block; position:absolute;left:10px; top:10px}
+.blk_18 .pcont {
+ width:850px;
+ float:left;
+ overflow:hidden;
+
+}
+.blk_18 .ScrCont {
+ width:32766px;
+ zoom:1;
+}
+.blk_18 #List1_1, .blk_18 #List2_1 {
+ float:left;
+}
+.blk_18 .LeftBotton, .blk_18 .RightBotton {
+ width:34px;
+ height:50px;
+ float:left;
+ background:url(../../images/guanyue/point.png) no-repeat;
+}
+.blk_18 .LeftBotton {
+ background-position: 0 0;
+ margin:40px 12px 0 8px;
+}
+.blk_18 .RightBotton {
+ background-position: 0 -50px;
+ margin:40px 0px 0 10px;
+}
+.blk_18 .LeftBotton:hover {
+ background-position: -34px 0;
+}
+.blk_18 .RightBotton:hover {
+ background-position: -34px -50px;
+}
+.blk_18 .pl img {
+ display:block;
+ cursor:pointer;
+ border:none;
+
+}
+.blk_18 .pl {
+ width:195px;
+ border:3px solid #f3f3f3;
+ float:left;
+ margin:0 6px
+}
+.blk_18 a.pl:hover {
+ border:3px solid #ab0c83;
+ color:#5dacec;
+ background:#fff;
+}
+
+
+.bottomList{float:left;width:300px; margin:25px 8px; display:inline}
+.bottomList .tit{ text-align:left; font-size:14px;}
+
+.bottomList .news{margin-top:10px}
+.bottomList .news li,.bottomList .news li a{width:300px}
+
+
+.footer{background:#444547;padding:64px 0;color:#999}
+.foot-con{width:770px; margin:0 auto;}
+.foot-con .f_list{ width:125px; border-right:1px solid #999; float:left;height:148px; overflow:hidden }
+.foot-con .f_list ul{margin-top:30px;}
+.foot-con .f_list ul li{ margin-bottom:5px}
+.foot-con .f_list ul li a{color:#999; font-size:14px}
+.foot-con .bl{ font-weight:bold; font-size:14px;}
+.foot-con .recruit{width:570px; margin-left:60px; border:none}
+.foot-con .recruit ul li{ float:left;margin:0 30px 5px; width:90px;}
+.foot-con .recruit ul{margin-left:-30px}
+.footer p{padding-top:100px; line-height:24px}
+
+
+
+
+
+

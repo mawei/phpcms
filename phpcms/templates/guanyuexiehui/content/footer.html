@@ -1,0 +1,54 @@
+<div class="footer clearfix">
+	<div class="foot-con clearfix">
+     <div class="f_list">
+     <h3 class="bl">关于我们</h3>
+       <ul>
+       <li><a href="">人才招聘</a></li>
+        <li><a href="">隐私条款</a></li>
+         <li><a href="">会员申请</a></li>
+          <li><a href="">厂商申请</a></li>
+       </ul>
+     </div>
+     
+     <div class="f_list recruit">
+     <h3 class="bl">友情链接</h3>
+       <ul>
+       {pc:link  action="type_list" siteid="$siteid" order="listorder DESC" num="10" return="dat"}
+		{loop $dat $v}
+              <li><a href="{$v[url]}" target="_blank">{$v[name]}</a></li>
+		{/loop}
+		{/pc}
+       </ul>
+     </div>
+    
+    </div>
+     <p class="t_c">
+     Copyright 2013 All Rights Reserved. 主办：中国音协管乐学会 联系电话：66863391 传真：51701505
+<br>本网站所刊登的各种新闻﹑信息和各种专题专栏资料，均为中国管乐协会版权所有，未经协议授权，禁止下载使用。
+<br>（浏览本网主页，建议将电脑显示屏的分辨率调为1024*768）您是本站第： 0033133 位访客
+   </p>
+</div>   
+<!-- <div class="footer">
+<p class="info">
+{pc:content action="category" catid="1" num="15" siteid="$siteid" order="listorder ASC"}
+{loop $data $r}
+<a href="{$r[url]}" target="_blank">{$r[catname]}</a> |  
+{/loop}
+{/pc}
+<a href="{APP_PATH}index.php?m=link" target="_blank">友情链接</a>
+<br />
+Powered by <strong><a href="http://www.phpcms.cn" target="_blank">PHPCMS</a></strong> <em>{get_pc_version(1)}</em> &copy; 2011 <img src="{IMG_PATH}copyright.gif"/>{tjcode()}{php echo runhook('glogal_footer')}
+</p>
+</div>
+<script type="text/javascript">
+$(function(){
+	$(".picbig").each(function(i){
+		var cur = $(this).find('.img-wrap').eq(0);
+		var w = cur.width();
+		var h = cur.height();
+	   $(this).find('.img-wrap img').LoadImage(true, w, h,'{IMG_PATH}msg_img/loading.gif');
+	});
+})
+</script> -->
+</body>
+</html>

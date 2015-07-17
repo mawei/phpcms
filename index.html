@@ -1,0 +1,734 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>PHPCMS演示站</title>
+<meta name="keywords" content="PHPCMS演示站">
+<meta name="description" content="PHPCMS演示站">
+<!-- 
+<link href="http://localhost/phpcms/statics/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="http://localhost/phpcms/statics/css/default_blue.css" rel="stylesheet" type="text/css" />
+ -->
+<script type="text/javascript" src="http://localhost/phpcms/statics/js/jquery.min.js"></script>
+<script type="text/javascript" src="http://localhost/phpcms/statics/js/jquery.sgallery.js"></script>
+<script type="text/javascript" src="http://localhost/phpcms/statics/js/search_common.js"></script>
+<script type="text/javascript" src="http://localhost/phpcms/statics/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="http://localhost/phpcms/statics/js/guanyue/header.js"></script>
+
+<link rel="stylesheet" href="http://localhost/phpcms/statics/css/guanyue/public.css">
+<link rel="stylesheet" href="http://localhost/phpcms/statics/css/guanyue/style.css">
+
+
+
+</head>
+<body>
+<div class="body-top">
+    <div class="content">
+        		<div id="announ">
+                 <ul>
+                                  </ul>
+            </div>
+     	     </div>
+</div>
+
+
+<div class="head">
+<div class="top">
+   	<div id="topNav" class="docbody">
+        <div class="leftNav">下午好，欢迎访问中国音协管乐学会 </div>
+        <div class="rightNav">
+          <a class="login" href="">登陆</a><a class="login" href="#">注册</a>&nbsp;&nbsp;
+          <a href="#" class="txt_d">忘记密码</a>
+        </div>
+        </div>
+  </div>
+       <div class="docbody clearfix">
+       <a class="logo" href="#">中国音协助管乐园会</a>
+       <p class="share">
+        <a href="#" class="sina"></a>
+        <a href="#" class="weixin"></a>
+       </p>
+       </div>
+       <div class="menu">
+       
+                   <ul class="clearfix">
+			<li><a href="http://localhost/phpcms">首页</a></li>
+						<li><a href="http://localhost/phpcms">活动博览</a></li>
+						<li><a href="http://localhost/phpcms">学会简介</a></li>
+						<li><a href="http://localhost/phpcms">管乐厂家</a></li>
+						<li><a href="http://localhost/phpcms">管乐资料</a></li>
+						<li><a href="http://localhost/phpcms">专家风采</a></li>
+						<li><a href="http://localhost/phpcms">资讯中心</a></li>
+						<li><a href="http://localhost/phpcms">管乐群体</a></li>
+						<li><a href="http://localhost/phpcms">管乐课堂</a></li>
+						<li><a href="http://localhost/phpcms">会员中心</a></li>
+			            </ul>
+                </div>
+ </div>
+<!-- 
+
+<div class="header">
+	<div class="logo"><a href="http://localhost/phpcms/"><img src="http://localhost/phpcms/statics/images/guanyue/logo.png" /></a></div>
+
+    <div class="search">
+    	<div class="tab" id="search">
+																<a href="javascript:;" onclick="setmodel(53, $(this));" style="outline:medium none;" hidefocus="true"  class="on" >书籍</a><span> | </span>										<a href="javascript:;" onclick="setmodel(1, $(this));" style="outline:medium none;" hidefocus="true" >新闻</a><span> | </span>										<a href="javascript:;" onclick="setmodel(3, $(this));" style="outline:medium none;" hidefocus="true" >图片</a><span> | </span>										<a href="javascript:;" onclick="setmodel(2, $(this));" style="outline:medium none;" hidefocus="true" >下载</a><span> | </span>										<a href="javascript:;" onclick="setmodel(52, $(this));" style="outline:medium none;" hidefocus="true" >专题</a>								</div>
+
+        <div class="bd">
+            <form action="http://localhost/phpcms/index.php" method="get" target="_blank">
+				<input type="hidden" name="m" value="search"/>
+				<input type="hidden" name="c" value="index"/>
+				<input type="hidden" name="a" value="init"/>
+				<input type="hidden" name="typeid" value="53" id="typeid"/>
+				<input type="hidden" name="siteid" value="1" id="siteid"/>
+                <input type="text" class="text" name="q" id="q"/><input type="submit" value="搜 索" class="button" />
+            </form>
+        </div>
+    </div>
+
+    <div class="banner"><script language="javascript" src="http://localhost/phpcms/index.php?m=poster&c=index&a=show_poster&id=1"></script></div>
+    <div class="bk3"></div>
+    <div class="nav-bar">
+    	<map>
+    	        	<ul class="nav-site">
+			<li><a href="http://localhost/phpcms"><span>首页</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://localhost/phpcms"><span>活动博览</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://localhost/phpcms"><span>学会简介</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://localhost/phpcms"><span>管乐厂家</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://localhost/phpcms"><span>管乐资料</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://localhost/phpcms"><span>专家风采</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://localhost/phpcms"><span>资讯中心</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://localhost/phpcms"><span>管乐群体</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://localhost/phpcms"><span>管乐课堂</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://localhost/phpcms"><span>会员中心</span></a></li>
+			            </ul>
+        		        </map>
+    </div> 
+	
+	</div>
+ 
+</div>
+--><div class="contain">
+	<div class="banner">
+		<div class="index_focus">
+
+			<a href="javascript:;" class="index_focus_pre" title="上一张">上一张</a> <a
+				href="javascript:;" class="index_focus_next" title="下一张">下一张</a>
+
+			<div class="bd">
+				<ul style="position: relative; width: 1440px; height: 300px;">
+					 					<li style="position: absolute; width: 1440px; left: 0px; top: 0px; display: none;">
+					<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=19" class="pic"> <img class="pic"
+							src="http://localhost/phpcms/uploadfile/2015/0717/20150717122104226.jpg" max-height="395" width="100%"
+							alt="">
+					</a></li> 
+										<li style="position: absolute; width: 1440px; left: 0px; top: 0px; display: none;">
+					<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=18" class="pic"> <img class="pic"
+							src="http://localhost/phpcms/uploadfile/2015/0717/20150717122121447.jpg" max-height="395" width="100%"
+							alt="">
+					</a></li> 
+										<li style="position: absolute; width: 1440px; left: 0px; top: 0px; display: none;">
+					<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=17" class="pic"> <img class="pic"
+							src="http://localhost/phpcms/uploadfile/2015/0717/20150717121656986.jpg" max-height="395" width="100%"
+							alt="">
+					</a></li> 
+										<li style="position: absolute; width: 1440px; left: 0px; top: 0px; display: none;">
+					<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=8&id=1" class="pic"> <img class="pic"
+							src="" max-height="395" width="100%"
+							alt="">
+					</a></li> 
+					 				</ul>
+			</div>
+
+			<div class="slide_nav">
+				  <a href="javascript:;">●</a>  <a href="javascript:;">●</a>  <a href="javascript:;">●</a>  <a href="javascript:;">●</a>  
+			</div>
+
+		</div>
+		<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".index_focus").hover(function(){
+		$(this).find(".index_focus_pre,.index_focus_next").stop(true, true).fadeTo("show", 1)
+	},function(){
+		$(this).find(".index_focus_pre,.index_focus_next").fadeOut()
+	});
+	
+	$(".index_focus").slide({
+		titCell: ".slide_nav a ",
+		mainCell: ".bd ul",
+		delayTime: 500,
+		interTime: 3500,
+		prevCell:".index_focus_pre",
+		nextCell:".index_focus_next",
+		effect: "fold",
+		autoPlay: true,
+		trigger: "click",
+		startFun:function(i){
+			$(".index_focus_info").eq(i).find("h3").css("display","block").fadeTo(1000,1);
+			$(".index_focus_info").eq(i).find(".text").css("display","block").fadeTo(1000,1);
+		}
+	});
+
+});
+</script>
+	</div>
+	<div class="docbody clearfix">
+		<div class="main clearfix">
+			<div class="bg_f4f5f7 clearfix">
+				<div class="leftCon">
+					<div class="title">
+						<h3 class="f_16">管乐资讯</h3>
+						<a class="more">更多>></a>
+					</div>
+					<div class="w_180">
+					 							<img src="http://localhost/phpcms/uploadfile/2015/0717/thumb_180_121_20150717122104226.jpg">
+							 						<ul class="slide">
+						 							<li><img src="http://localhost/phpcms/uploadfile/2015/0717/thumb_55_36_20150717122104226.jpg" width="55" height="36"></li>
+														<li><img src="http://localhost/phpcms/statics/images/nopic.gif" width="55" height="36"></li>
+														<li><img src="http://localhost/phpcms/statics/images/nopic.gif" width="55" height="36"></li>
+							 
+													</ul>
+					</div>
+					<div class="w_340">
+						 							<p class="first">
+								<b>banner3</b><span class="time">15/07/17</span>
+							</p>
+							<p class="h_40 releative">
+								<a class="xiangxi"
+									style="right: 10px;" href="#">详细》</a>
+							</p>
+							 						<ul class="news">
+							 							<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=19">banner3</a><span>15/07/17</span></li>
+														<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=8">深圳龙华中心小学雏鹰行进打击乐团  参加“2015台湾国际行</a><span>15/07/12</span></li>
+														<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=7">李天池博士管乐教育系列讲座开始报名</a><span>15/07/12</span></li>
+							 						</ul>
+					</div>
+				</div>
+				<div class="rightCon">
+					<div class="title">
+						<h3 class="f_16">通知公告</h3>
+						<a class="more">更多>></a>
+					</div>
+					<ul class="news" style="margin-top: 0px;">
+																		<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=9&id=9">测试公告2</a><span>15/07/12</span></li>
+												<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=9&id=2">今天下午两点音乐课</a><span>15/07/10</span></li>
+												<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=9&id=1">某某某通知公告</a><span>15/07/10</span></li>
+						 					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="main search">
+			<form>
+				<label>搜索范围:</label><select class="sel"><option>全文</option>
+					<option>全文</option>
+					<option>全文</option></select> <label>关键字:</label><input type="text"
+					class="txt"> <a class="searchButton" href="#">搜索</a>
+			</form>
+		</div>
+		<div class="main">
+			<div class="bg_f4f5f7 clearfix">
+				<div class="title">
+					<h3 class="f_16">活动展览</h3>
+					<a class="more">更多>></a>
+				</div>
+				<ul class="listImg">
+					 					<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=4"><img src="http://localhost/phpcms/statics/images/nopic.gif"></a></li>
+										<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=3"><img src="http://localhost/phpcms/uploadfile/2015/0712/thumb_218_102_20150712102052818.jpg"></a></li>
+										<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=2"><img src="http://localhost/phpcms/statics/images/nopic.gif"></a></li>
+										<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=1"><img src="http://localhost/phpcms/uploadfile/2015/0712/thumb_218_102_20150712101919759.jpg"></a></li>
+					 				</ul>
+				<ul class="news activityCon fl">
+					 					<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=4">长笛课程1</a><span>15/07/12</span></li>
+										<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=3">圆号课程</a><span>15/07/12</span></li>
+										<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=2">小号教学</a><span>15/07/12</span></li>
+										<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=1">萨克斯教学1</a><span>15/07/12</span></li>
+					 				</ul>
+				<ul class="news activityCon fr">
+					 					<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=4">长笛课程1</a><span>15/07/12</span></li>
+										<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=3">圆号课程</a><span>15/07/12</span></li>
+										<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=2">小号教学</a><span>15/07/12</span></li>
+										<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=1">萨克斯教学1</a><span>15/07/12</span></li>
+					 				</ul>
+			</div>
+			<div class="bg_f4f5f7 clearfix" style="margin-top: 20px;">
+				<div class="title">
+					<h3 class="f_16">学会简介</h3>
+					<a class="more">更多>></a>
+				</div>
+				<p class="sidebarleft">在海外，有一群热爱歌曲创作和演唱的华人群热爱歌曲创作和演唱的华人群热爱歌曲创作和演唱的华人群热爱歌曲创作和演唱的华人群热爱歌曲创作和演唱的华人群热爱歌曲创作演唱的华人群热爱歌曲创作演唱的华人群热爱歌曲创作演唱的华人群热爱歌曲创作演唱的华人群热爱歌曲创作演唱的华人群热爱歌演唱的华人群热爱歌曲创作演唱的华人群热爱歌曲创作曲创作和演唱的华人</p>
+				<div class="sidebarcenter">
+					<span class="f_16">申请会员的基本要求可以获得福利：</span>
+					<p class="c_cen">
+						作和演唱的华人群热爱歌曲创作和演唱的爱歌曲创作和演唱的华人群热华人群热爱作和演唱的华人群热爱歌曲创作和演唱的华人群热爱<a
+							class="xiangxi">详细》</a>
+					</p>
+					<a class="member" href="#">个人会员申请</a>
+				</div>
+				<div class="sidebarcenter">
+					<span class="f_16">申请会员的基本要求可以获得福利：</span>
+					<p class="c_cen">
+						作和演唱的华人群热爱歌曲创作和演唱的华人群热爱作和演唱的华人群热爱歌曲创作和演唱的华人群热爱<a class="xiangxi">详细》</a>
+					</p>
+					<a class="member" href="#">个人会员申请</a>
+
+				</div>
+			</div>
+		</div>
+
+		<p>
+			<img src="image/avent.jpg">
+		</p>
+		<div class="main clearfix">
+			<div class="pin">
+				<div class="title">
+					<h3 class="f_16">专家风采</h3>
+					<a class="more">更多>></a>
+				</div>
+				<dl class="pro clearfix">
+					<dt>
+						<img src="image/porect.jpg">
+					</dt>
+					<dd>
+						<h3 class="tit">专家姓名：黄老师</h3>
+						<p class="info">个字自动省略字自个字自动省略字自个字自动省略字自个字自动省略字自个字自动省略字自个字自动省略字自</p>
+					</dd>
+				</dl>
+				<p class="info clearfix">自动省略字自个字自动省略字自个字自自动省略字自个字自动省略字自个字自自动省略字自个字自动省略字自个字自自动省略字自个字自动省略字自个字自自动省略字自个字自动省略字自个字自</p>
+			</div>
+			<div class="pin">
+				<div class="title">
+					<h3 class="f_16">团队会员风采</h3>
+					<a class="more">更多>></a>
+				</div>
+				<dl class="pro clearfix">
+					<dt>
+						<img src="image/porect.jpg">
+					</dt>
+					<dd>
+						<h3 class="tit">专家姓名：黄老师</h3>
+						<p class="info">
+							个字自动省略字自个字自动省略字自个字自动省略字自个字自动省略字自个字自动省略字自个字自动省略字自</p>
+					</dd>
+				</dl>
+				<p class="info clearfix">自动省略字自个字自动省略字自个字自自动省略字自个字自动省略字自个字自自动省略字自个字自动省略字自个字自自动省略字自个字自动省略字自个字自自动省略字自个字自动省略字自个字自</p>
+			</div>
+		</div>
+		<div class="m_t">
+			<div class="main clearfix">
+				<div class="title">
+					<h3 class="f_16">管乐资料</h3>
+				</div>
+				<div class="hot_book">
+					<h3 class="tit">热门书籍</h3>
+					<ul class="line clearfix">
+						 						<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=12&id=3"><img
+								src="http://localhost/phpcms/uploadfile/2015/0712/thumb_89_116_20150712102709926.jpg" width="89" height="116"><br>阅读：30次<br>价格：29元</a></li>
+												<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=12&id=2"><img
+								src="http://localhost/phpcms/uploadfile/2015/0712/thumb_89_116_20150712102452338.jpg" width="89" height="116"><br>阅读：20次<br>价格：55元</a></li>
+												<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=12&id=1"><img
+								src="http://localhost/phpcms/uploadfile/2015/0712/thumb_89_116_20150712102307585.jpg" width="89" height="116"><br>阅读：10次<br>价格：28元</a></li>
+						 
+					</ul>
+				</div>
+				<div class="clickVideo">
+					<h3 class="tit">视频点播排行版</h3>
+					<ul class="line">
+						<li><em class="lines">1</em><a href="">演示视频详视视频详视频详频详情</a></li>
+						<li><em class="lines">2</em><a href="">演示视频详情</a></li>
+						<li><em class="lines">3</em><a href="">演示视视频详频详情</a></li>
+						<li><em>4</em><a href="">演示视视频详频详情</a></li>
+						<li><em>5</em><a href="">演示视频详情</a></li>
+					</ul>
+				</div>
+				<div class="clickVideo">
+					<h3 class="tit">视频点播排行版</h3>
+					<ul class="line">
+						<li><em class="lines">1</em><a href="">演示视频详视视频详视频详频详情</a></li>
+						<li><em class="lines">2</em><a href="">演示视频详情</a></li>
+						<li><em class="lines">3</em><a href="">演示视视频详频详情</a></li>
+						<li><em>4</em><a href="">演示视视频详频详情</a></li>
+						<li><em>5</em><a href="">演示视频详情</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<p>
+			 									<img src="http://localhost/phpcms/uploadfile/2015/0717/20150717124436738.jpg">
+						
+						 		
+		</p>
+
+		<div class="main clearfix">
+
+			<div class="blk_18">
+				<span class="scroll">中外乐团</span> <a class="LeftBotton"
+					onmousedown="ISL_GoUp_1()" onmouseup="ISL_StopUp_1()"
+					onmouseout="ISL_StopUp_1()" href="javascript:void(0);"
+					target="_self"></a>
+				<div class="pcont" id="ISL_Cont_1">
+					<div class="ScrCont">
+						<div id="List1_1">
+							<!-- piclist begin -->
+					 					<a class="pl" href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=15&id=11"><img src="http://localhost/phpcms/uploadfile/2015/0714/20150714055440747.png" alt=""
+								width="195" height="115" /></a>
+										<a class="pl" href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=15&id=10"><img src="http://localhost/phpcms/statics/images/nopic.gif" alt=""
+								width="195" height="115" /></a>
+					 							<!-- piclist end -->
+						</div>
+						<div id="List2_1"></div>
+					</div>
+				</div>
+				<a class="RightBotton" onmousedown="ISL_GoDown_1()"
+					onmouseup="ISL_StopDown_1()" onmouseout="ISL_StopDown_1()"
+					href="javascript:void(0);" target="_self"></a>
+			</div>
+			<div class="c"></div>
+			<script type="text/javascript">
+        <!--
+        picrun_ini()
+        //-->
+        </script>
+			<div class="bottomList clearfix">
+				<h3 class="tit">乐团历史</h3>
+				<ul class="news">
+					 					<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=15&id=11">某某某乐队2的历史</a></li> 					<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=15&id=10">某某某乐队</a></li>  				</ul>
+			</div>
+			<div class="bottomList clearfix">
+				<h3 class="tit">重要活动</h3>
+				<ul class="news">
+					 					<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=16&id=14">重要活动3</a></li> 					<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=16&id=13">重要活动2</a></li> 					<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=16&id=12">重要活动1</a></li>  				</ul>
+			</div>
+			<div class="bottomList clearfix">
+				<h3 class="tit">管乐节日</h3>
+				<ul class="news">
+					 					<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=17&id=16">管乐节日2</a></li> 					<li><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=17&id=15">管乐节日1</a></li>  				</ul>
+			</div>
+		</div>
+	</div>
+	<!--main-->
+	<!-- 
+<div class="main">
+	<div class="col-left">
+    	<div class="news-hot">
+        	<div class="content">
+        	        	   
+                
+            </div>
+        </div>
+        <div class="slide">
+            <div class="FocusPic">
+                        	<div class="content" id="main-slide">
+                    <div class="changeDiv">  
+                                            <a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=19" title="banner3"><img src="http://localhost/phpcms/uploadfile/2015/0717/thumb_310_260_20150717122104226.jpg" alt="banner3" width="310" height="260" /></a>
+                                        </div>
+                </div>
+                        </div>
+            <div class="bk10"></div>
+        	<div class="box extend">
+            	<div class="col-left">争议</div>
+                <div class="col-auto">
+								</div>
+                <script language="javascript" src="http://localhost/phpcms/caches/poster_js/10.js"></script>
+            </div>
+        </div>
+        <div class="bk10"></div>
+        <div class="box">
+        		<h5>图片新闻</h5>
+                      <ul class="content news-photo picbig">
+                         	<li>
+                    <div class="img-wrap">
+                        <a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=20" title="中间广告文章"><img src="http://localhost/phpcms/uploadfile/2015/0717/thumb_110_0_20150717124436738.jpg" title="中间广告文章"/></a>
+                    </div>
+                    <a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=20" title="中间广告文章">中间广告文章</a>
+                </li>
+                            </ul>
+                    </div>
+        <div class="bk10"></div>
+                        <div class="box cat-area" style=" margin-right:10px">
+        		<h5 class="title-1">乐队历史<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                       	<p>
+             		<img src="http://localhost/phpcms/uploadfile/2015/0714/20150714055440747.png" width="90" height="60"/>
+                    <strong><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=15&id=11" target="_blank" title="某某某乐队2的历史" style="" >某某某乐队2的历史</a></strong><br />某某某乐队2的历史                </p>
+                                            
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=15&id=11" target="_blank" title="某某某乐队2的历史" style="" >某某某乐队2的历史</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=15&id=10" target="_blank" title="某某某乐队" style="" >某某某乐队</a></li>
+                                </ul>
+                            </div>
+        </div>
+        		                <div class="box cat-area" >
+        		<h5 class="title-1">通知公告<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                                        
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=9&id=9" target="_blank" title="测试公告2" style="" >测试公告2</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=9&id=2" target="_blank" title="今天下午两点音乐课" style="" >今天下午两点音乐课</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=9&id=1" target="_blank" title="某某某通知公告" style="" >某某某通知公告</a></li>
+                                </ul>
+                            </div>
+        </div>
+        <div class="bk10"></div>		                <div class="box cat-area" style=" margin-right:10px">
+        		<h5 class="title-1">管乐书籍<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                       	<p>
+             		<img src="http://localhost/phpcms/uploadfile/2015/0712/thumb_90_0_20150712102307585.jpg" width="90" height="60"/>
+                    <strong><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=12&id=1" target="_blank" title="西方管乐艺术史" style="" >西方管乐艺术史</a></strong><br />书是国内第一部介绍西方管乐音乐发展和艺术成就的专著，也是在研究...                </p>
+                                            
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=12&id=3" target="_blank" title="西方管乐艺术论稿" style="" >西方管乐艺术论稿</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=12&id=2" target="_blank" title="西方管乐合奏曲精选·初级3" style="" >西方管乐合奏曲精选·初级3</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=12&id=1" target="_blank" title="西方管乐艺术史" style="" >西方管乐艺术史</a></li>
+                                </ul>
+                            </div>
+        </div>
+        		                <div class="box cat-area" >
+        		<h5 class="title-1">视频<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                                        
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                </ul>
+                            </div>
+        </div>
+        <div class="bk10"></div>		                <div class="box cat-area" style=" margin-right:10px">
+        		<h5 class="title-1">管乐节日<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                                        
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=17&id=16" target="_blank" title="管乐节日2" style="" >管乐节日2</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=17&id=15" target="_blank" title="管乐节日1" style="" >管乐节日1</a></li>
+                                </ul>
+                            </div>
+        </div>
+        		                <div class="box cat-area" >
+        		<h5 class="title-1">活动博览<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                                        
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=16&id=14" target="_blank" title="重要活动3" style="" >重要活动3</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=16&id=13" target="_blank" title="重要活动2" style="" >重要活动2</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=16&id=12" target="_blank" title="重要活动1" style="" >重要活动1</a></li>
+                                </ul>
+                            </div>
+        </div>
+        <div class="bk10"></div>		                <div class="box cat-area" style=" margin-right:10px">
+        		<h5 class="title-1">图片<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                                        
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=8&id=1" target="_blank" title="轮换图图片2" style="" >轮换图图片2</a></li>
+                                </ul>
+                            </div>
+        </div>
+        		                <div class="box cat-area" >
+        		<h5 class="title-1">管乐厂家<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                                        
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                </ul>
+                            </div>
+        </div>
+        <div class="bk10"></div>		                <div class="box cat-area" style=" margin-right:10px">
+        		<h5 class="title-1">管乐资料<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                                        
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                </ul>
+                            </div>
+        </div>
+        		                <div class="box cat-area" >
+        		<h5 class="title-1">专家风采<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                                        
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                </ul>
+                            </div>
+        </div>
+        <div class="bk10"></div>		                <div class="box cat-area" style=" margin-right:10px">
+        		<h5 class="title-1">资讯中心<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                       	<p>
+             		<img src="http://localhost/phpcms/uploadfile/2015/0717/thumb_90_0_20150717122104226.jpg" width="90" height="60"/>
+                    <strong><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=19" target="_blank" title="banner3" style="" >banner3</a></strong><br />banner3                </p>
+                                            
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=20" target="_blank" title="中间广告文章" style="" >中间广告文章</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=19" target="_blank" title="banner3" style="" >banner3</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=18" target="_blank" title="skdjakjd" style="" >skdjakjd</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=17" target="_blank" title="某某某大型活动" style="" >某某某大型活动</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=14&id=8" target="_blank" title="深圳龙华中心小学雏鹰行进打击乐团  参加“2015台湾国际行" style="" >深圳龙华中心小学雏鹰行...</a></li>
+                                </ul>
+                            </div>
+        </div>
+        		                <div class="box cat-area" >
+        		<h5 class="title-1">管乐群体<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                                        
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                </ul>
+                            </div>
+        </div>
+        <div class="bk10"></div>		                <div class="box cat-area" style=" margin-right:10px">
+        		<h5 class="title-1">管乐课堂<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                       	<p>
+             		<img src="http://localhost/phpcms/uploadfile/2015/0712/thumb_90_0_20150712102052818.jpg" width="90" height="60"/>
+                    <strong><a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=3" target="_blank" title="圆号课程" style="" >圆号课程</a></strong><br />                </p>
+                                            
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=4" target="_blank" title="长笛课程1" style="" >长笛课程1</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=3" target="_blank" title="圆号课程" style="" >圆号课程</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=2" target="_blank" title="小号教学" style="" >小号教学</a></li>
+                                	<li>·<a href="http://localhost/phpcms/index.php?m=content&c=index&a=show&catid=10&id=1" target="_blank" title="萨克斯教学1" style="" >萨克斯教学1</a></li>
+                                </ul>
+                            </div>
+        </div>
+        		                <div class="box cat-area" >
+        		<h5 class="title-1">会员中心<a href="http://localhost/phpcms" class="more">更多>></a></h5>
+             <div class="content">
+                                                        
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                </ul>
+                            </div>
+        </div>
+        <div class="bk10"></div>		    </div>
+    <div class="col-auto">
+    	<div class="box">
+        	 <h5 class="title-2">公告<a href="" class="more">&nbsp;</a></h5>
+             <div class="content">
+                                <ul class="list lh24 f14">
+                                   </ul>
+                            </div>
+        </div>
+        <div class="bk10"></div>
+        <div class="box">
+        	<h5 class="title-2">专题<a href="http://localhost/phpcms/index.php?m=special&c=index&a=special&siteid=1" class="more">更多>></a></h5>
+            <div class="content special">
+                                                </div>
+        </div>
+        <div class="bk10"></div>
+        <div class="box">
+            <h5 class="title-2"><span class="rt fn f12 tab SwapTab"><span class="fb">热点</span> | <span >评论</span> | <span>关注</span></span>排行</h5>
+            <div class="tab-content">
+            <ul class="content digg">
+										            </ul>
+            <ul class="content digg hidden">
+										            </ul>
+            <ul class="content digg hidden">
+										            </ul>
+            </div>
+        </div><div class="bk10"></div>
+        <div class="box">
+            <h5 class="title-2">调查问卷<a href="http://localhost/phpcms/index.php?m=vote&c=index&siteid=1" class="more">更多>></a></h5>
+ 
+<script language="javascript" src="http://localhost/phpcms/index.php?m=vote&c=index&a=show&action=js&subjectid=1&type=3"></script>
+        </div>
+    </div>
+    <div class="bk10"></div>
+	
+	<div class="box blogroll ylink">
+    	<h5><a href="http://localhost/phpcms/index.php?m=link&siteid=1" hidefocus="true" class="rt">更多>>12</a>友情链接1<a href="http://localhost/phpcms/index.php?m=link&c=index&a=register&siteid=1" class="red">申请链接</a></h5>
+        <div class="bk10"></div>
+	<ul class="colli imgul">
+                        <li><a href="http://www.phpcms.cn" title="PHPCMS" target="_blank"><img src="http://www.phpcms.cn/images/logo_88_31.gif" width="88" height="31" /></a></li>
+                    </ul>
+          <div class="bk10"></div>
+	<div class="linka">
+		                            <a href="http://www.sdo.com" target="_blank">盛大在线</a> |
+              		 	</div>
+	</div>
+</div>
+<script type="text/javascript"> 
+$(function(){
+	new slide("#main-slide","cur",310,260,1);//焦点图
+	new SwapTab(".SwapTab","span",".tab-content","ul","fb");//排行TAB
+})
+</script>
+ -->
+	<div class="footer clearfix">
+	<div class="foot-con clearfix">
+     <div class="f_list">
+     <h3 class="bl">关于我们</h3>
+       <ul>
+       <li><a href="">人才招聘</a></li>
+        <li><a href="">隐私条款</a></li>
+         <li><a href="">会员申请</a></li>
+          <li><a href="">厂商申请</a></li>
+       </ul>
+     </div>
+     
+     <div class="f_list recruit">
+     <h3 class="bl">友情链接</h3>
+       <ul>
+       		              <li><a href="http://www.sdo.com" target="_blank">盛大在线</a></li>
+				       </ul>
+     </div>
+    
+    </div>
+     <p class="t_c">
+     Copyright 2013 All Rights Reserved. 主办：中国音协管乐学会 联系电话：66863391 传真：51701505
+<br>本网站所刊登的各种新闻﹑信息和各种专题专栏资料，均为中国管乐协会版权所有，未经协议授权，禁止下载使用。
+<br>（浏览本网主页，建议将电脑显示屏的分辨率调为1024*768）您是本站第： 0033133 位访客
+   </p>
+</div>   
+<!-- <div class="footer">
+<p class="info">
+<a href="http://localhost/phpcms/html/about/aboutus/" target="_blank">关于我们</a> |  
+<a href="http://localhost/phpcms/html/about/contactus/" target="_blank">联系方式</a> |  
+<a href="http://test.phpcms.cn/index.php?m=content&c=index&a=lists&catid=4" target="_blank">版权声明</a> |  
+<a href="http://localhost/phpcms/html/about/hr/" target="_blank">招聘信息</a> |  
+<a href="http://localhost/phpcms/index.php?m=link" target="_blank">友情链接</a>
+<br />
+Powered by <strong><a href="http://www.phpcms.cn" target="_blank">PHPCMS</a></strong> <em>V9.5.9</em> &copy; 2011 <img src="http://localhost/phpcms/statics/images/copyright.gif"/></p>
+</div>
+<script type="text/javascript">
+$(function(){
+	$(".picbig").each(function(i){
+		var cur = $(this).find('.img-wrap').eq(0);
+		var w = cur.width();
+		var h = cur.height();
+	   $(this).find('.img-wrap img').LoadImage(true, w, h,'http://localhost/phpcms/statics/images/msg_img/loading.gif');
+	});
+})
+</script> -->
+</body>
+</html>
